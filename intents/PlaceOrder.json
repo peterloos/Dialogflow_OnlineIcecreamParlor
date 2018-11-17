@@ -1,0 +1,31 @@
+{
+  "id": "abb940a2-21f3-4ca3-821c-8b800fddebf7",
+  "name": "PlaceOrder",
+  "auto": true,
+  "contexts": [
+    "awaiting_placement",
+    "customer_order"
+  ],
+  "responses": [
+    {
+      "resetContexts": false,
+      "affectedContexts": [],
+      "parameters": [],
+      "messages": [
+        {
+          "type": 0,
+          "lang": "en",
+          "speech": []
+        }
+      ],
+      "defaultResponsePlatforms": {},
+      "speech": []
+    }
+  ],
+  "priority": 500000,
+  "webhookUsed": true,
+  "webhookForSlotFilling": false,
+  "lastUpdate": 1541584644,
+  "fallbackIntent": false,
+  "events": []
+}

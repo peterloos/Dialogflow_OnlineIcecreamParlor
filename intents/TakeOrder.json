@@ -1,0 +1,85 @@
+{
+  "id": "91bb1514-a423-4095-aab2-db9499021d6f",
+  "name": "TakeOrder",
+  "auto": true,
+  "contexts": [],
+  "responses": [
+    {
+      "resetContexts": false,
+      "affectedContexts": [
+        {
+          "name": "awaiting_confirmation",
+          "parameters": {},
+          "lifespan": 1
+        },
+        {
+          "name": "customer_order",
+          "parameters": {},
+          "lifespan": 1
+        }
+      ],
+      "parameters": [
+        {
+          "id": "1d3f6088-54af-4670-a5f8-4f6668ec56fa",
+          "required": true,
+          "dataType": "@sys.number-integer",
+          "name": "scoops",
+          "value": "$scoops",
+          "prompts": [
+            {
+              "lang": "en",
+              "value": "Okay, I can help you with that. How many scoops do you want?"
+            }
+          ],
+          "defaultValue": "",
+          "isList": false
+        },
+        {
+          "id": "e1ce3cd5-f1a0-48e2-bd77-08497955c668",
+          "required": true,
+          "dataType": "@flavor",
+          "name": "flavors",
+          "value": "$flavors",
+          "prompts": [
+            {
+              "lang": "en",
+              "value": "Which flavors do you like?"
+            }
+          ],
+          "defaultValue": "",
+          "isList": true
+        },
+        {
+          "id": "dbc2791a-55b5-488a-bddd-94510d0dd8b5",
+          "required": true,
+          "dataType": "@container",
+          "name": "container",
+          "value": "$container",
+          "prompts": [
+            {
+              "lang": "en",
+              "value": "Do you want a cup or a cone?"
+            }
+          ],
+          "defaultValue": "",
+          "isList": false
+        }
+      ],
+      "messages": [
+        {
+          "type": 0,
+          "lang": "en",
+          "speech": "Okay, you would like to order our ice cream in a $container with $scoops scoops. Your selected choice is $flavors . If this order is correct, please reply with Yes, otherwise with No."
+        }
+      ],
+      "defaultResponsePlatforms": {},
+      "speech": []
+    }
+  ],
+  "priority": 500000,
+  "webhookUsed": false,
+  "webhookForSlotFilling": false,
+  "lastUpdate": 1540983117,
+  "fallbackIntent": false,
+  "events": []
+}

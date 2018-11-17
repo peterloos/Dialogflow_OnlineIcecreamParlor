@@ -1,0 +1,16 @@
+[
+  {
+    "value": "cup",
+    "synonyms": [
+      "cup",
+      "sundae"
+    ]
+  },
+  {
+    "value": "cone",
+    "synonyms": [
+      "cone",
+      "waffle"
+    ]
+  }
+]

@@ -1,0 +1,114 @@
+[
+  {
+    "id": "614b75e1-a353-4340-8068-edda8357ef41",
+    "data": [
+      {
+        "text": "I like ",
+        "userDefined": false
+      },
+      {
+        "text": "Vanilla",
+        "alias": "flavors",
+        "meta": "@flavor",
+        "userDefined": true
+      },
+      {
+        "text": " ice cream",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "updated": 1540983117
+  },
+  {
+    "id": "f7f016e9-1913-446a-a461-45fcfe440cb0",
+    "data": [
+      {
+        "text": "May I have a ",
+        "userDefined": false
+      },
+      {
+        "text": "Strawberry",
+        "alias": "flavors",
+        "meta": "@flavor",
+        "userDefined": true
+      },
+      {
+        "text": " ice cream?",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "updated": 1540983117
+  },
+  {
+    "id": "2da1f8ad-ee98-4003-94e1-ac4c1df22772",
+    "data": [
+      {
+        "text": "Can I have a ice cream in a ",
+        "userDefined": false
+      },
+      {
+        "text": "cone",
+        "alias": "container",
+        "meta": "@container",
+        "userDefined": true
+      },
+      {
+        "text": "?",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "updated": 1539783222
+  },
+  {
+    "id": "e4b9a032-224b-4343-adc3-13e4e54d91c1",
+    "data": [
+      {
+        "text": "Can I order ",
+        "userDefined": false
+      },
+      {
+        "text": "3",
+        "alias": "scoops",
+        "meta": "@sys.number-integer",
+        "userDefined": true
+      },
+      {
+        "text": " scoops?",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "updated": 1539782912
+  },
+  {
+    "id": "87828343-a31d-4ea6-9b0f-d204e7d9af8d",
+    "data": [
+      {
+        "text": "Can I order ice cream",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "updated": 1539782912
+  },
+  {
+    "id": "6e00a8d6-c3d8-4b07-8c39-35000a7e1a77",
+    "data": [
+      {
+        "text": "I would like to order ice cream",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "updated": 1539782912
+  }
+]

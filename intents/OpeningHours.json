@@ -1,0 +1,28 @@
+{
+  "id": "416a0a8e-d6ec-4b5c-aaed-87836aa9d7b0",
+  "name": "OpeningHours",
+  "auto": true,
+  "contexts": [],
+  "responses": [
+    {
+      "resetContexts": false,
+      "affectedContexts": [],
+      "parameters": [],
+      "messages": [
+        {
+          "type": 0,
+          "lang": "en",
+          "speech": "We\u0027re open from 10 AM to 22 PM every day. Is there anything else I can do for you?"
+        }
+      ],
+      "defaultResponsePlatforms": {},
+      "speech": []
+    }
+  ],
+  "priority": 500000,
+  "webhookUsed": false,
+  "webhookForSlotFilling": false,
+  "lastUpdate": 1539856728,
+  "fallbackIntent": false,
+  "events": []
+}

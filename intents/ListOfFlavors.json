@@ -1,0 +1,28 @@
+{
+  "id": "3f4ea321-aaf6-4cb9-b35f-b16ad1afe2ec",
+  "name": "ListOfFlavors",
+  "auto": true,
+  "contexts": [],
+  "responses": [
+    {
+      "resetContexts": false,
+      "affectedContexts": [],
+      "parameters": [],
+      "messages": [
+        {
+          "type": 0,
+          "lang": "en",
+          "speech": "Currently we have chocolate, vanilla and strawberry ice cream. Can I take your order or how may I help you?"
+        }
+      ],
+      "defaultResponsePlatforms": {},
+      "speech": []
+    }
+  ],
+  "priority": 500000,
+  "webhookUsed": false,
+  "webhookForSlotFilling": false,
+  "lastUpdate": 1539855190,
+  "fallbackIntent": false,
+  "events": []
+}

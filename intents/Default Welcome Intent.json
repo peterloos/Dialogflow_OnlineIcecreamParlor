@@ -1,0 +1,36 @@
+{
+  "id": "cc707e56-6485-4b36-bc30-21925a7eba23",
+  "name": "Default Welcome Intent",
+  "auto": true,
+  "contexts": [],
+  "responses": [
+    {
+      "resetContexts": false,
+      "action": "input.welcome",
+      "affectedContexts": [],
+      "parameters": [],
+      "messages": [
+        {
+          "type": 0,
+          "lang": "en",
+          "speech": [
+            "Welcome. I can tell you our shop hours, our list of available ice cream flavors or I can take your order. What can I do for you?",
+            "Hello there. I can tell you the shop hours, the list of available ice cream flavors or I can take your order. How may I help you today?"
+          ]
+        }
+      ],
+      "defaultResponsePlatforms": {},
+      "speech": []
+    }
+  ],
+  "priority": 500000,
+  "webhookUsed": false,
+  "webhookForSlotFilling": false,
+  "lastUpdate": 1542104761,
+  "fallbackIntent": false,
+  "events": [
+    {
+      "name": "WELCOME"
+    }
+  ]
+}

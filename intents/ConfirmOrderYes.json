@@ -1,0 +1,52 @@
+{
+  "id": "955db5a1-9c6e-48a8-9a13-ea1bcf56baec",
+  "name": "ConfirmOrderYes",
+  "auto": true,
+  "contexts": [
+    "awaiting_confirmation",
+    "customer_order"
+  ],
+  "responses": [
+    {
+      "resetContexts": false,
+      "affectedContexts": [
+        {
+          "name": "customer_order",
+          "parameters": {},
+          "lifespan": 1
+        },
+        {
+          "name": "awaiting_placement",
+          "parameters": {},
+          "lifespan": 1
+        }
+      ],
+      "parameters": [],
+      "messages": [
+        {
+          "type": 0,
+          "lang": "en",
+          "speech": "Thanks a lot. I\u0027m going to schedule your order, a pickup id will be generated  right now."
+        },
+        {
+          "type": 0,
+          "lang": "en",
+          "speech": "Order summary: #customer_order.scoops scoops in a #customer_order.container . Selected flavors: #customer_order.flavors"
+        },
+        {
+          "type": 0,
+          "lang": "en",
+          "speech": "Could you please confirm your order with \u0027Yes\u0027 for  final checkout"
+        }
+      ],
+      "defaultResponsePlatforms": {},
+      "speech": []
+    }
+  ],
+  "priority": 500000,
+  "webhookUsed": false,
+  "webhookForSlotFilling": false,
+  "lastUpdate": 1540283437,
+  "fallbackIntent": false,
+  "events": []
+}

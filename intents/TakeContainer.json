@@ -1,0 +1,39 @@
+{
+  "id": "f529679d-3eee-43fa-a8b3-334ac1d16c60",
+  "name": "TakeContainer",
+  "auto": true,
+  "contexts": [
+    "awaiting_container"
+  ],
+  "responses": [
+    {
+      "resetContexts": false,
+      "affectedContexts": [],
+      "parameters": [
+        {
+          "id": "3fc761b6-2bcf-4695-b0da-250beef01aef",
+          "required": true,
+          "dataType": "@container",
+          "name": "container",
+          "value": "$container",
+          "prompts": [
+            {
+              "lang": "en",
+              "value": "You like a cup or a cone?"
+            }
+          ],
+          "isList": false
+        }
+      ],
+      "messages": [],
+      "defaultResponsePlatforms": {},
+      "speech": []
+    }
+  ],
+  "priority": 500000,
+  "webhookUsed": true,
+  "webhookForSlotFilling": false,
+  "lastUpdate": 1540227536,
+  "fallbackIntent": false,
+  "events": []
+}

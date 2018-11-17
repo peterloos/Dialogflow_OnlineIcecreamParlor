@@ -1,0 +1,39 @@
+{
+  "id": "df9de768-8ac6-476e-a141-fcb994259cf2",
+  "name": "TakeFlavors",
+  "auto": true,
+  "contexts": [
+    "awaiting_flavors"
+  ],
+  "responses": [
+    {
+      "resetContexts": false,
+      "affectedContexts": [],
+      "parameters": [
+        {
+          "id": "ca30babc-8c79-4493-8099-a10296875ce6",
+          "required": true,
+          "dataType": "@flavor",
+          "name": "flavors",
+          "value": "$flavors",
+          "prompts": [
+            {
+              "lang": "en",
+              "value": "Which flavors do you like"
+            }
+          ],
+          "isList": true
+        }
+      ],
+      "messages": [],
+      "defaultResponsePlatforms": {},
+      "speech": []
+    }
+  ],
+  "priority": 500000,
+  "webhookUsed": true,
+  "webhookForSlotFilling": false,
+  "lastUpdate": 1540982947,
+  "fallbackIntent": false,
+  "events": []
+}

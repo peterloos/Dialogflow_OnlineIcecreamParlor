@@ -1,0 +1,44 @@
+[
+  {
+    "id": "df12a9d3-334c-450f-9886-9b7695a4f410",
+    "data": [
+      {
+        "text": "Chocolate",
+        "alias": "flavors",
+        "meta": "@flavor",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "updated": 1540982896
+  },
+  {
+    "id": "b30e60e4-fc7d-42b5-b11a-8f3002426b1e",
+    "data": [
+      {
+        "text": "Strawberry",
+        "alias": "flavors",
+        "meta": "@flavor",
+        "userDefined": true
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "updated": 1540982947
+  },
+  {
+    "id": "f24426ac-e5e8-4a20-b5ad-034c51c67bc5",
+    "data": [
+      {
+        "text": "Vanilla",
+        "alias": "flavors",
+        "meta": "@flavor",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "updated": 1540982896
+  }
+]

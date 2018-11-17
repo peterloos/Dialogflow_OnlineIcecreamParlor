@@ -1,0 +1,41 @@
+{
+  "id": "035d6c73-b61d-4857-959d-77f1fe19d685",
+  "name": "ConfirmOrderNo",
+  "auto": true,
+  "contexts": [
+    "awaiting_confirmation"
+  ],
+  "responses": [
+    {
+      "resetContexts": false,
+      "affectedContexts": [
+        {
+          "name": "awaiting_scoops",
+          "parameters": {},
+          "lifespan": 1
+        }
+      ],
+      "parameters": [],
+      "messages": [
+        {
+          "type": 0,
+          "lang": "en",
+          "speech": "No problem!"
+        },
+        {
+          "type": 0,
+          "lang": "en",
+          "speech": "Let\u0027s try it once more to take up your order.  Let\u0027s start with the number of scoops: How many scoops do you want?"
+        }
+      ],
+      "defaultResponsePlatforms": {},
+      "speech": []
+    }
+  ],
+  "priority": 500000,
+  "webhookUsed": false,
+  "webhookForSlotFilling": false,
+  "lastUpdate": 1540116192,
+  "fallbackIntent": false,
+  "events": []
+}

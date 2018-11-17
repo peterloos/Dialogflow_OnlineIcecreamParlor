@@ -1,0 +1,98 @@
+[
+  {
+    "id": "ade2ac25-51d6-4524-b237-abcdb3e47e53",
+    "data": [
+      {
+        "text": "What kind of flavors do you have?",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "updated": 1539015613
+  },
+  {
+    "id": "be2c466a-11e3-4f98-b27d-084038e11f55",
+    "data": [
+      {
+        "text": "Can you tell me your list of flavors?",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "updated": 1539015613
+  },
+  {
+    "id": "e54eca8e-35cc-4c4b-80d4-0899df99a4a8",
+    "data": [
+      {
+        "text": "Do you have strawberry ice cream?",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "updated": 1539015613
+  },
+  {
+    "id": "3921aa35-6b13-4ad1-bc47-acbb739e319a",
+    "data": [
+      {
+        "text": "Do you have chocolat?",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "updated": 1539015613
+  },
+  {
+    "id": "8071a27d-e083-4eba-8418-1c3bc8a54247",
+    "data": [
+      {
+        "text": "Do you have strawberry?",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "updated": 1539015613
+  },
+  {
+    "id": "b2512226-8fd5-4c00-a345-4447a929cbd0",
+    "data": [
+      {
+        "text": "Do you have chocolat ice cream?",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "updated": 1539015613
+  },
+  {
+    "id": "c974fbf3-1018-4de3-b8c2-2c66ec51e967",
+    "data": [
+      {
+        "text": "What kind of ice cream flavors do you have?",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "updated": 1539015613
+  },
+  {
+    "id": "ebc97867-ced2-4729-a533-16480e061633",
+    "data": [
+      {
+        "text": "Which flavors do you have?",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "updated": 1539015613
+  }
+]

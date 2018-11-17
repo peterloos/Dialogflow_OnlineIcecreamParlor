@@ -1,0 +1,39 @@
+{
+  "id": "ea6f819d-84e1-4347-bc68-8cf3a749f4b8",
+  "name": "TakeScoops",
+  "auto": true,
+  "contexts": [
+    "awaiting_scoops"
+  ],
+  "responses": [
+    {
+      "resetContexts": false,
+      "affectedContexts": [],
+      "parameters": [
+        {
+          "id": "25b78449-d0fb-438e-ad17-5d81c3e749c3",
+          "required": true,
+          "dataType": "@sys.number-integer",
+          "name": "scoops",
+          "value": "$scoops",
+          "prompts": [
+            {
+              "lang": "en",
+              "value": "How many scoops do you like?"
+            }
+          ],
+          "isList": false
+        }
+      ],
+      "messages": [],
+      "defaultResponsePlatforms": {},
+      "speech": []
+    }
+  ],
+  "priority": 500000,
+  "webhookUsed": true,
+  "webhookForSlotFilling": false,
+  "lastUpdate": 1542106131,
+  "fallbackIntent": false,
+  "events": []
+}
